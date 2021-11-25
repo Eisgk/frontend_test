@@ -1,0 +1,101 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* form component */
+.col-form-label-sm {
+  display: flex;
+  justify-content: flex-end;
+}
+.form-validate {
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  margin-top: 5rem;
+}
+form {
+  width: 650px;
+  background-color: #cbd5e0;
+  border-radius: 10px;
+  padding: 40px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+form > div {
+  padding: 0.5rem;
+}
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 100%;
+}
+/* header component */
+.header {
+  background-color: #718096;
+  width: 100vw;
+  height: 100px;
+  color: #fff;
+  margin: 0.5rem;
+  border-radius: 5px;
+}
+
+.header > h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  height: 100px;
+}
+/* pokemon page */
+.pokemonData {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  justify-content: space-around;
+}
+.pokemon {
+  background-color: #cbd5e0;
+  margin: 0.5rem;
+}
+.titlePokemon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+  height: 100px;
+}
+.pokemonData p {
+  background-color: black;
+  color: #fff;
+  border-radius: 7px;
+  width: 150px;
+}
+.pokemonData p,
+.pokemonData img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 150px;
+}
+/* layout component */
+nav {
+  display: flex;
+  justify-content: center;
+}
+
+nav > div {
+  padding: 0 5px;
+}
+
+nav > div > a {
+  color: #616e83;
+  font-weight: 500;
+  text-decoration: none;
+}
+nav > div > a::placeholder {
+  color: rgb(62, 179, 62);
+}
