@@ -18,7 +18,6 @@ export default function Pokemon() {
     fetchData();
   }, []);
 
-  console.log(arrayPokemon);
   return (
     <div className="pokemon">
       {loading ? (
@@ -43,7 +42,7 @@ export default function Pokemon() {
               .fill()
               .map((_, i) => {
                 return (
-                  <Card style={{ border: 'none' }} >
+                  <Card key={i} style={{ border: 'none' }} >
                     <Card
                       variant="top"
                       style={{
